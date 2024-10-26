@@ -5,7 +5,7 @@
 <figure>
 	<img src={imageSrc} alt="meow" />
 	<figcaption>
-		{caption}
+		{@html caption}
 	</figcaption>
 </figure>
 

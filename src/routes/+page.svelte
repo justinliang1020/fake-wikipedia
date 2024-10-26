@@ -8,7 +8,7 @@
 </script>
 
 <ImageFigure {caption} {imageSrc} />
-<label for="caption">caption</label>
+<label for="caption">Caption (raw HTML)</label>
 <textarea bind:value={caption} id="caption" rows="7" cols="35"></textarea>
 
 <br />
