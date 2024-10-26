@@ -31,5 +31,8 @@
 		border-top: 0;
 		background-color: #f8f9fa;
 		font-size: 88%;
+		background-image: url('https://en.wikipedia.org/w/resources/src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e');
+		background-repeat: no-repeat;
+		background-position: top right 5px;
 	}
 </style>
