@@ -16,6 +16,7 @@
 		border: 1px solid #c8ccd1;
 		border-bottom: 0;
 		font-family: sans-serif;
+		font-size: 16px;
 		display: table;
 	}
 
