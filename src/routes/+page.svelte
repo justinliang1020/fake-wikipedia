@@ -10,15 +10,19 @@
 <h1>Fake Wikipedia Image Generator</h1>
 <ImageFigure {caption} {imageSrc} />
 
-<br />
-<br />
+<section>
+	<div>
+		<label for="caption">Caption (raw HTML)</label>
+		<textarea bind:value={caption} id="caption" rows="7" cols="35"></textarea>
+	</div>
 
-<label for="caption">Caption (raw HTML)</label>
-<textarea bind:value={caption} id="caption" rows="7" cols="35"></textarea>
+	<div>
+		<label for="imageUrl">Image URL</label>
+		<input type="text" id="imageUrl" name="Image URL" bind:value={imageSrc} style="width: 400px;" />
+	</div>
+</section>
 
-<br />
-
-<label for="imageUrl">Image URL</label>
-<input type="text" id="imageUrl" name="Image URL" bind:value={imageSrc} style="width: 400px;" />
-
-<a href="https://github.com/justinliang1020/fake-wikipedia">source</a>
+<footer>
+	<p>created by <a href="https://www.justinliang.me/">justin</a></p>
+	<a href="https://github.com/justinliang1020/fake-wikipedia">source code</a>
+</footer>
