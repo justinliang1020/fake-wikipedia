@@ -7,7 +7,11 @@
 	let imageSrc = $state('catskull.png');
 </script>
 
-<h1>Fake Wikipedia Image Generator</h1>
+<svelte:head>
+	<title>Fake Wikipedia Image Caption Generator</title>
+</svelte:head>
+
+<h1>Fake Wikipedia Image Caption Generator</h1>
 
 <ImageFigure {caption} {imageSrc} />
 
@@ -22,6 +26,11 @@
 		<input type="text" id="imageUrl" name="Image URL" bind:value={imageSrc} style="width: 400px;" />
 	</div>
 </section>
+
+<hr />
+
+<i>wikipedia image caption as picture frame</i>
+<p>hint: you can use a tags in the caption!</p>
 
 <footer>
 	<p>created by <a href="https://www.justinliang.me/">justin</a></p>
