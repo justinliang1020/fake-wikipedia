@@ -20,3 +20,5 @@
 
 <label for="imageUrl">Image URL</label>
 <input type="text" id="imageUrl" name="Image URL" bind:value={imageSrc} style="width: 400px;" />
+
+<a href="https://github.com/justinliang1020/fake-wikipedia">source</a>
