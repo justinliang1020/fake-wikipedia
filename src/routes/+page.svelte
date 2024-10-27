@@ -8,9 +8,10 @@
 </script>
 
 <h1>Fake Wikipedia Image Generator</h1>
+
 <ImageFigure {caption} {imageSrc} />
 
-<section>
+<section class="options">
 	<div>
 		<label for="caption">Caption (raw HTML)</label>
 		<textarea bind:value={caption} id="caption" rows="7" cols="35"></textarea>
@@ -26,3 +27,12 @@
 	<p>created by <a href="https://www.justinliang.me/">justin</a></p>
 	<a href="https://github.com/justinliang1020/fake-wikipedia">source code</a>
 </footer>
+
+<style>
+	h1 {
+		margin-bottom: 30px;
+	}
+	.options {
+		margin-top: 40px;
+	}
+</style>
