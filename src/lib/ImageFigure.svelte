@@ -5,6 +5,12 @@
 <figure>
 	<img src={imageSrc} alt="meow" />
 	<figcaption>
+		<svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 11 15">
+			<g id="magnify-clip" fill="#fff" stroke="#000">
+				<path id="bigbox" d="M1.509 1.865h10.99v7.919H1.509z" />
+				<path id="smallbox" d="M-1.499 6.868h5.943v4.904h-5.943z" />
+			</g>
+		</svg>
 		{@html caption}
 	</figcaption>
 </figure>
@@ -27,6 +33,7 @@
 	}
 
 	figcaption {
+		position: relative;
 		display: table-caption;
 		caption-side: bottom;
 		line-height: 1.4em;
@@ -35,8 +42,10 @@
 		border-top: 0;
 		background-color: #f8f9fa;
 		font-size: 88%;
-		background-image: url('https://en.wikipedia.org/w/resources/src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e');
-		background-repeat: no-repeat;
-		background-position: top right 5px;
+		word-break: break-word;
+	}
+
+	svg {
+		float: right;
 	}
 </style>
