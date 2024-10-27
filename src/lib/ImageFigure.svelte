@@ -26,13 +26,13 @@
 		display: table;
 	}
 
-	img {
+	figure img {
 		max-width: calc(100% - (2 * 3px) - (2 * 1px));
 		border: 1px solid #c8ccd1;
 		margin: 3px;
 	}
 
-	figcaption {
+	figure figcaption {
 		position: relative;
 		display: table-caption;
 		caption-side: bottom;
@@ -45,7 +45,7 @@
 		word-break: break-word;
 	}
 
-	svg {
+	figcaption svg {
 		float: right;
 	}
 </style>
