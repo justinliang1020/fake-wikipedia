@@ -42,7 +42,7 @@
 		margin-bottom: 30px;
 	}
 
-	a {
+	:global(a) {
 		color: rgb(136, 163, 232);
 	}
 
