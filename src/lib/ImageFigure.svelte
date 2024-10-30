@@ -18,8 +18,8 @@
 <style>
 	figure {
 		width: 229px;
-		background-color: rgb(248, 249, 250);
-		border: 1px solid #c8ccd1;
+		background-color: rgb(32, 33, 34);
+		border: 1px solid rgb(84, 89, 93);
 		border-bottom: 0;
 		font-family: sans-serif;
 		font-size: 16px;
@@ -38,9 +38,9 @@
 		caption-side: bottom;
 		line-height: 1.4em;
 		padding: 0 6px 6px 6px;
-		border: 1px solid #c8ccd1;
+		border: 1px solid rgb(84, 89, 93);
 		border-top: 0;
-		background-color: #f8f9fa;
+		background-color: rgb(32, 33, 34);
 		font-size: 88%;
 		word-break: break-word;
 	}

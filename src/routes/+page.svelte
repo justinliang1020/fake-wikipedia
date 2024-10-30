@@ -41,7 +41,17 @@
 	h1 {
 		margin-bottom: 30px;
 	}
+
+	a {
+		color: rgb(136, 163, 232);
+	}
+
 	.options {
 		margin-top: 40px;
+	}
+
+	:global(body) {
+		color: rgb(248, 249, 250);
+		background-color: rgb(32, 33, 34);
 	}
 </style>
